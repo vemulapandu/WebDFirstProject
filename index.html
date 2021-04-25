@@ -1,6 +1,8 @@
 <html>
 <head>
 	<link rel="stylesheet" href="./css/main.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="./css/popup.css">
 	<title> The Art Of Code - HomePage</title>
 </head>
 <body>
@@ -9,7 +11,6 @@
 			<span class="menubutton_btn"></span>
 		</div>
 		<div class="nav">
-			<img src="./img/Ourlogo.jpg" radius="50%">
 			<ul class="menunav">
 				<li class="menunav_item"><a href="Homepage.html" class="home">Home</a></li>
 				<li class="menunav_item"><a href="#" class="about">About</a></li>
@@ -17,10 +18,10 @@
 			</ul>
 			<button class="login_button">Sign Up/ LogIn</button>
 		</div>
-		<div class="login-popup" style="display: none;">
-			<div class="signup">
-				<p id="popup-line1">Don't have an account...???</p>
-				<p id="popup-line2">Sign up for services</p>
+		<div class="login_popup" style="display: none;">
+			<div class="signupbox">
+				<p id="popup_line1">Don't have an account...???</p>
+				<p id="popup_ine2">Sign up for services</p>
 				<form class="signup-form">
 					<label for="fname">First name</label>
 					<input type="text" id="fname">
@@ -37,19 +38,20 @@
 				</form>
 			</div>
 			<div class="login">
-				<span class="close">&times;</span>
 				<p>Login with your account</p>
-				<form class="login-form">
+				<form class="login_form">
 					<label for="luname">Username</label>
 					<input type="text" id="luname">
 					<label for="lpass">Password</label>
 					<input type="password">
+					<span class="close"><button id="close">Close</button></span>
 				</form>
-				<button class="login-button">Go Ahead</button>
+				<button class="login_button">Go Ahead</button>
 			</div>
 		</div>
 	</header>
 	<main>
+		<img src="./img/Ourlogo.jpg" radius="50%">
 		<section class="middlecontent">
 			<h1> <span>The Art</span> of Code </h1>
 			<p><span>~</span> Develope with good taste <span>~</span> </p>
@@ -64,7 +66,7 @@
 					<li><a href="abhay.html">Abhay Parihar</a></li>
 					<li><a href="shreya.html">Shreya Botte</a></li>
 				</ol>
-				<p>If you want to rate or give some suggestions then <a href="#google_form_link">Click Here to Proceed</a>
+				If you want to rate or give some suggestions then <a href="https://forms.gle/FtrgFTbhw3fQUs3c8">Click Here to Proceed</a>
 			</a>
 		</section>
 		<section class="features">
@@ -105,5 +107,6 @@
 		</section>
 	</main>
 	<script src="https://kit.fontawesome.com/9675136edf.js" crossorigin="anonymous"></script>
-	<script src="sandbox.js"></script>
+	<script src="./js/sandbox.js"></script>
 </body>
+</html>

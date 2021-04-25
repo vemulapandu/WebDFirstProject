@@ -1,4 +1,4 @@
-const popup = document.querySelector('.login-popup');
+const popup = document.querySelector('.login_popup');
 const popbutton = document.querySelector('.login_button');
 const span = document.querySelector('.close');
 popbutton.addEventListener('click',function(){
